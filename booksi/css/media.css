@@ -1,0 +1,80 @@
+@media (max-width: 1366px) {
+    .menu__list-li+.menu__list-li {
+        margin-left: 45px;
+    }
+    .catalog__slider {
+        margin: 0 64px;
+    }
+    .catalog__item.slick-slide {
+        max-width: 300px;
+    }
+    .catalog__item-body {
+        border: 14px solid #e94544;
+    }
+    .new__slick-prev {
+        left: -19px;
+    }
+    .new__slider-text {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .new__slider-name {
+        padding-bottom: 15px;
+        font-size: 27px;
+    }
+    .new__slider-links span {
+        font-size: 27px;
+        padding-right: 75px;
+    }
+    .new__slider-descr span {
+        font-size: 15px;
+    }
+    .subscribe__rate {
+        max-width: 300px;
+        padding: 50px 21px 0 21px;
+    }
+    .subscribe__inner {
+        padding: 94px 115px 140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .new__slider {
+        margin: 0 115px;
+    }
+    .subscribe__rate-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .subscribe__rate-subtitle {
+        font-size: 30px;
+        padding-bottom: 24px;
+    }
+    .subscribe__rate {
+        max-width: 277px;
+        padding: 40px 21px 0 21px;
+        min-height: 342px;
+    }
+    .subscribe__inner {
+        padding: 85px 33px 140px;
+    }
+
+    .footer__services {
+        padding: 12px 7px 21px 7px;
+    }
+    .footer__services span {
+        font-size: 16px;
+    }
+    .footer__services-payment {
+        max-width: 187px;
+    }
+    .footer__services-gift {
+        max-width: 168px;
+    }
+    .footer__services-regist {
+        max-width: 178px;
+    }
+    .footer__services-area {
+        max-width: 153px;
+    }
+}
